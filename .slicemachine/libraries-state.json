@@ -1,6 +1,168 @@
 {
   "slices": {
     "components": {
+      "features": {
+        "library": "slices",
+        "id": "features",
+        "name": "Features",
+        "description": "Features",
+        "model": {
+          "id": "features",
+          "type": "SharedSlice",
+          "name": "Features",
+          "description": "Features",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Features",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                }
+              },
+              "items": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading3"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "features",
+            "items": [
+              {
+                "title": [
+                  {
+                    "type": "heading3",
+                    "text": "Embrace rich systems",
+                    "spans": []
+                  }
+                ],
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nisi esse mollit Lorem ea qui proident labore cupidatat nisi commodo.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading3",
+                    "text": "Incubate sticky mindshare",
+                    "spans": []
+                  }
+                ],
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Consequat ea adipisicing excepteur labore sunt nulla enim nulla sunt aliquip et veniam.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading3",
+                    "text": "Strategize open-source e-services",
+                    "spans": []
+                  }
+                ],
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Duis eiusmod sint sit proident ad exercitation laboris. Labore elit tempor quis aliquip adipisicing labore culpa cillum aliquip officia sit et reprehenderit. Nulla in est proident exercitation excepteur fugiat velit culpa proident sunt in.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading3",
+                    "text": "Facilitate extensible paradigms",
+                    "spans": []
+                  }
+                ],
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Fugiat eu enim do sit cupidatat aute cillum tempor sint excepteur. Mollit incididunt exercitation sunt ullamco officia dolore officia aliqua ipsum minim dolore ut in. Minim duis reprehenderit laboris sunt commodo qui id ad deserunt.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Disintermediate distributed systems",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Laboris irure et Lorem in.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/alexaspalato/DEV/prismic/prismic-starter/.slicemachine/assets/slices/Features/default/preview.png",
+            "width": 800,
+            "height": 900
+          }
+        }
+      },
       "hero": {
         "library": "slices",
         "id": "hero",
@@ -208,7 +370,18 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/alexaspalato/DEV/prismic/prismic-starter/.slicemachine/assets/slices/Hero/default/preview.png",
+            "width": 800,
+            "height": 608
+          },
+          "bgImage": {
+            "path": "/Users/alexaspalato/DEV/prismic/prismic-starter/.slicemachine/assets/slices/Hero/bgImage/preview.png",
+            "width": 800,
+            "height": 480
+          }
+        }
       }
     }
   }
