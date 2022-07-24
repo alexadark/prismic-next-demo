@@ -6,3 +6,13 @@
 [data-collapsible="true"].bg-gray-800 + [data-collapsible="true"].bg-gray-800 {
   @apply pt-0 md:pt-0;
 }
+
+h2 {
+  @apply mb-5 text-5xl font-bold md:text-7xl;
+}
+p {
+  @apply mb-3;
+}
+.btn {
+  @apply w-[200px] bg-white px-5 py-2 text-black transition duration-300 hover:bg-black hover:text-white;
+}

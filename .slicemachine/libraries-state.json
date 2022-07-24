@@ -1,5 +1,215 @@
 {
   "slices": {
-    "components": {}
+    "components": {
+      "hero": {
+        "library": "slices",
+        "id": "hero",
+        "name": "Hero",
+        "description": "Hero",
+        "model": {
+          "id": "hero",
+          "type": "SharedSlice",
+          "name": "Hero",
+          "description": "Hero",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Hero",
+              "primary": {
+                "headline": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "headline",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "content",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {
+                "buttonText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button Text",
+                    "placeholder": ""
+                  }
+                },
+                "buttonLink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Button Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "bgImage",
+              "name": "With Background Image",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Hero",
+              "primary": {
+                "headline": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "headline",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "content",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {
+                "buttonLink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Button Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "buttonText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button Text",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "hero",
+            "items": [
+              {
+                "buttonText": "cultivate viral applications",
+                "buttonLink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              },
+              {
+                "buttonText": "strategize bricks-and-clicks web-readiness",
+                "buttonLink": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              }
+            ],
+            "primary": {
+              "headline": [
+                {
+                  "type": "heading2",
+                  "text": "Recontextualize collaborative e-services",
+                  "spans": []
+                }
+              ],
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Occaecat aliqua minim ad aliquip irure est.",
+                  "spans": []
+                }
+              ]
+            }
+          },
+          "bgImage": {
+            "variation": "bgImage",
+            "name": "With Background Image",
+            "slice_type": "hero",
+            "items": [
+              {
+                "buttonLink": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                },
+                "buttonText": "implement killer models"
+              },
+              {
+                "buttonLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                },
+                "buttonText": "target back-end solutions"
+              },
+              {
+                "buttonLink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                },
+                "buttonText": "unleash robust solutions"
+              }
+            ],
+            "primary": {
+              "headline": [
+                {
+                  "type": "heading2",
+                  "text": "Mesh bleeding-edge schemas",
+                  "spans": []
+                }
+              ],
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Fugiat pariatur ex amet duis duis. Laboris id consequat aliquip deserunt aute sint.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1484589065579-248aad0d8b13?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
   }
 }
