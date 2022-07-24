@@ -1,6 +1,14 @@
 {
-  "id": "df677dd1-5cd5-4389-b94a-99ba786da41d",
-  "uid": "in-minima-quis",
+  "id": "0a3c00dc-1347-4ab0-be06-3cef7bb43509",
+  "uid": "qui-qui-quibusdam",
   "type": "page",
-  "data": {}
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Visualize granular supply-chains",
+        "spans": []
+      }
+    ]
+  }
 }

@@ -77,6 +77,13 @@
     }
   },
   "_cts": {
-    "page": {}
+    "page": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    }
   }
 }
