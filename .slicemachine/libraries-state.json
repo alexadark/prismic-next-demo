@@ -157,7 +157,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/alexaspalato/DEV/prismic/prismic-starter/.slicemachine/assets/slices/Features/default/preview.png",
+            "path": "/Users/alexandraspalato/Dev/prismic/prismic-next-demo/.slicemachine/assets/slices/Features/default/preview.png",
             "width": 800,
             "height": 852
           }
@@ -372,12 +372,12 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/alexaspalato/DEV/prismic/prismic-starter/.slicemachine/assets/slices/Hero/default/preview.png",
+            "path": "/Users/alexandraspalato/Dev/prismic/prismic-next-demo/.slicemachine/assets/slices/Hero/default/preview.png",
             "width": 800,
             "height": 608
           },
           "bgImage": {
-            "path": "/Users/alexaspalato/DEV/prismic/prismic-starter/.slicemachine/assets/slices/Hero/bgImage/preview.png",
+            "path": "/Users/alexandraspalato/Dev/prismic/prismic-next-demo/.slicemachine/assets/slices/Hero/bgImage/preview.png",
             "width": 800,
             "height": 480
           }
